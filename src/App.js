@@ -1,26 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// stateless functional components
+// class based components
+// state, life cycle methods
+// React Hooks
+// Classes - Syntactical Sugar For Constructor Functions
+// subclass of Component
+// extends from Component Class
+// inherits functionality
+// Component class is used to transfer from basic E6 class.
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import React, { Component } from "react";
+
+const App = () => (
+  <section>
+    <h1>This is our Application</h1>
+  </section>
+);
 
 export default App;
